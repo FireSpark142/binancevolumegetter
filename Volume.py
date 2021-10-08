@@ -7,6 +7,9 @@ import datetime
 from aiostream import stream
 from binance import AsyncClient
 
+API_KEY = ""
+API_SECRET = ""
+
 startTime = datetime.datetime.now()
 print(datetime.datetime.now() - startTime)
 
